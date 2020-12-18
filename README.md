@@ -93,5 +93,7 @@ Run the database seeder and you're done
 ## Results
 
 http://localhost:8000/transactions?source=db
+
 http://localhost:8000/transactions?source=csv
+
 http://localhost:8000/transactions?source=test
