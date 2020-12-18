@@ -13,7 +13,7 @@ class SourceFactory
         if (class_exists($name)) {  
             return new $name();  
         }
-        throw new \Exception('test');
+        throw new \Exception('Source value is unknown!');
     }
     
 }
